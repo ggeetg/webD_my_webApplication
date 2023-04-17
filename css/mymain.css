@@ -1,0 +1,52 @@
+  * {
+  box-sizing: border-box;
+  }
+  .jumbotron::after{
+  	content: '';
+  }
+  body{
+  	min-height: 100vh;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  }
+  #profile-tail::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 53%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #666 transparent;
+  }
+  #profile-tail{
+  	position: absolute; 
+  	display: inline-block;
+  	right: -41px;
+  	top: 55px;
+  	border: 1px solid #ddd;
+  	padding: 2px 10px;
+  	text-align: center;
+  	border-radius: 4px; 
+  }
+  .dropdown-item:hover{
+  	background: #007bff;
+  	color: #fff;
+  }
+  .dropdown-menu{
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }
+  label{
+	margin-bottom:0px;
+  }
+  .tab{
+    font-size: 18px;
+    color: #e8985f !important;
+  }
+  .red{
+    color:red;
+  }
+  .table-bordered td, .table-bordered th{
+    border:1px solid #c0c3c5;
+  }
